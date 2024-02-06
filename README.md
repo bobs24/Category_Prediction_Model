@@ -7,40 +7,40 @@ This repository contains the configuration and weights for a Convolutional Neura
 The model is defined as a Sequential model with the following layers:
 
 1. Input Layer
-Input shape: (None, 32, 32, 1)
+- Input shape: (None, 32, 32, 1)
 
 2. Convolutional Layer
-Filters: 32
-Kernel size: (3, 3)
-Activation function: ReLU
-Batch normalization
-Max pooling: pool size (2, 2), strides (2, 2)
+- Filters: 32
+- Kernel size: (3, 3)
+- Activation function: ReLU
+- Batch normalization
+- Max pooling: pool size (2, 2), strides (2, 2)
 
 3. Dropout Layer
-Dropout rate: 0.25
+- Dropout rate: 0.25
 
 4. Convolutional Layer
-Filters: 64
-Kernel size: (3, 3)
-Activation function: ReLU
-Batch normalization
-Max pooling: pool size (2, 2), strides (2, 2)
+- Filters: 64
+- Kernel size: (3, 3)
+- Activation function: ReLU
+- Batch normalization
+- Max pooling: pool size (2, 2), strides (2, 2)
 
 5. Dropout Layer
-Dropout rate: 0.25
-Flatten Layer
+- Dropout rate: 0.25
+- Flatten Layer
 
 6. Dense Layer
-Units: 128
-Activation function: ReLU
-Batch normalization
+- Units: 128
+- Activation function: ReLU
+- Batch normalization
 
 7. Dropout Layer
-Dropout rate: 0.5
+- Dropout rate: 0.5
 
 8. Dense Layer
-Units: 6 (output layer)
-Activation function: Softmax
+- Units: 6 (output layer)
+- Activation function: Softmax
 
 ## Categories to Predict
 
